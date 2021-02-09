@@ -227,6 +227,9 @@ class AdminController {
             case 'database_update':
                 InvController::LOAD_DATABASE_CREDENTIALS();
             break;
+            case 'test_data':
+                echo "aa";
+            break;
             default:
         }
     }
