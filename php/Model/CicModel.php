@@ -773,7 +773,7 @@ class CicModel{
      }
 
 
-     public function LOAD_SQL_DATA($sql,$parameter){
+     public function LOAD_SQL_DATA($sql,$parameter,$callback = null){
 
 		$datacontainer = array();
 		$ob =  new stdClass();
